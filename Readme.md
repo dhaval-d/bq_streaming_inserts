@@ -16,7 +16,7 @@ Pre-requirements:
 5. Your python environment is setup with all dependencies from requirements.txt installed.
 
 **Step 1:**
-Clone this repository to your local machine using following command.
+Clone this repository to your local machine using the following command.
 
 <code>git clone https://github.com/dhaval-d/bq_streaming_inserts .
 </code>
@@ -45,7 +45,7 @@ Run the following command to set GOOGLE_APPLICATION_CREDENTIALS to point to your
 <br />
 
 **Step 4:**
-Run the following command to run python application on your local environment.
+Run the following command to run the python application on your local environment.
 <br />
 <code>python3 app.py \\ <br/>
  --project [YOUR_GCP_PROJECT_NAME] \\ <br/>
@@ -60,7 +60,7 @@ Run the following command to run python application on your local environment.
 **Step 5:** 
 Change the Dockerfile CMD line(line 13) to point to your project and a BigQuery dataset.
 
-Then build a docker container by using following command. 
+Then build a docker container by using the following command. 
 
 <code>docker build -t gcr.io/[YOUR_GCP_PROJECT_NAME]/bq_streaming_demo:v1 .
 </code>
@@ -131,5 +131,5 @@ One your deployment.yaml is updated, run following command to start your GKE job
 <br />
 
 **Step 14:**
-Go to the GKE console and check status of your job. Also, go to the BigQuery console and validate if the job is 
+Go to the GKE console and check the status of your job. Also, go to the BigQuery console and validate if the job is 
 populating records or no.
