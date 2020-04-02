@@ -8,7 +8,7 @@ Python application can be run in following ways depending on your needs:
  
 Following are the steps to build a BigQuery table and run Python application as a job on a GKE cluster.
 
-Pre-requirements:
+Prerequisites:
 1. You have an Editor access to a Google Cloud project.
 2. You have installed and configured a gCloud utility to refer to above project.
 3. You have created a service account key file with BigQuery Editor permissions.
@@ -104,7 +104,7 @@ Push your docker image to the Google Container Registry on your GCP project.
 <br />
 
 **Step 10:**
-Create and verify a GKE cluster using following commands.
+Create and verify a GKE cluster using the following commands.
 
 <code>gcloud container clusters create demo-cluster --num-nodes=2
 </code><br/>
