@@ -1,0 +1,57 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "ride_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "city",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "customer_type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "contract",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "delivery_location",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "traffic",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "duration",
+    "type": "integer"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "miles",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "cost",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ride_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "insert_date",
+    "type": "DATE"
+  }
+]
