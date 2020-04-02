@@ -24,7 +24,7 @@ Clone this repository to your local machine using following command.
 <br />
 
 **Step 2:** 
-Go to above directory and run following command to create a BigQuery table.
+Go to the above directory and run the following command to create a BigQuery table.
 <br />
 <br />
 <code>bq mk --table \<br/>
@@ -37,7 +37,7 @@ Go to above directory and run following command to create a BigQuery table.
 <br />
 
 **Step 3:**
-Run following command to set GOOGLE_APPLICATION_CREDENTIALS to point to your service account key file.
+Run the following command to set GOOGLE_APPLICATION_CREDENTIALS to point to your service account key file.
 <br />
 <code>export GOOGLE_APPLICATION_CREDENTIALS=bq-editor.json
 </code>
@@ -45,7 +45,7 @@ Run following command to set GOOGLE_APPLICATION_CREDENTIALS to point to your ser
 <br />
 
 **Step 4:**
-Run following command to run python application on your local environment.
+Run the following command to run python application on your local environment.
 <br />
 <code>python3 app.py \\ <br/>
  --project [YOUR_GCP_PROJECT_NAME] \\ <br/>
@@ -58,7 +58,7 @@ Run following command to run python application on your local environment.
 <br />
 
 **Step 5:** 
-Change Dockerfile CMD line(line 13) to point to your project and a BigQuery dataset.
+Change the Dockerfile CMD line(line 13) to point to your project and a BigQuery dataset.
 
 Then build a docker container by using following command. 
 
@@ -68,7 +68,7 @@ Then build a docker container by using following command.
 <br />
 
 **Step 6:** 
-Make sure you can see your container image using following command.
+Make sure you can see your container image using the following command.
 
 <code>docker images
 </code>
@@ -76,7 +76,7 @@ Make sure you can see your container image using following command.
 <br />
 
 **Step 7:** 
-Run following docker command to run your application as a container in a local environemnt.
+Run the following docker command to run your application as a container in a local environment.
 (For testing purposes)
 
 <code>docker run -- name bq_streaming \
@@ -88,7 +88,7 @@ gcr.io/[YOUR_GCP_PROJECT_NAME]/bq_streaming_demo:v1
 <br />
 
 **Step 8:** 
-Configure docker to authenticate with your GCP project using following command.
+Configure the docker to authenticate with your GCP project using following command.
 
 <code>gcloud auth configure-docker
 </code>
@@ -96,7 +96,7 @@ Configure docker to authenticate with your GCP project using following command.
 <br />
 
 **Step 9:**
-Push your docker image to Google Container Registry on your GCP project.
+Push your docker image to the Google Container Registry on your GCP project.
 
 <code>docker push gcr.io/[YOUR_GCP_PROJECT_NAME]/bq_streaming_demo:v1
 </code>
@@ -110,7 +110,7 @@ Create and verify a GKE cluster using following commands.
 </code><br/>
 
 **Step 11:**
-Once a cluster is up and running, you can use following command to check status of the nodes.
+Once a cluster is up and running, you can use the following command to check the status of the nodes.
 
 <code>kubectl get nodes
 </code>
@@ -131,5 +131,5 @@ One your deployment.yaml is updated, run following command to start your GKE job
 <br />
 
 **Step 14:**
-Go to GKE console and check status of your job. Also, go to BigQuery console and validate if job is populating records
-or no.
+Go to the GKE console and check status of your job. Also, go to the BigQuery console and validate if the job is 
+populating records or no.
