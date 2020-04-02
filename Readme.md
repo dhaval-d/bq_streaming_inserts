@@ -10,10 +10,10 @@ Following are the steps to build a BigQuery table and run Python application as 
 
 Prerequisites:
 1. You have an Editor access to a Google Cloud project.
-2. You have installed and configured a gCloud utility to refer to above project.
+2. You have installed and configured a gCloud utility to refer to the above project.
 3. You have created a service account key file with BigQuery Editor permissions.
 4. Store this file as a bq-editor.json 
-5. Your python environment is setup with all dependencies from requirements.txt installed.
+5. Your python environment is setup with all the dependencies from requirements.txt installed.
 
 **Step 1:**
 Clone this repository to your local machine using the following command.
